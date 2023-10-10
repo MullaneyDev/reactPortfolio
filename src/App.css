@@ -1,3 +1,8 @@
+.App {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
 nav {
   display: flex;
   margin-top: 5px;
@@ -19,5 +24,32 @@ nav a:hover {
   background-color: #b1ff2e;
   color: #464545;
   font-size: xx-large;
+  border-radius: 5px;
+}
+.projectWindow {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2 1fr);
+  width: 90vw;
+  justify-self: center;
+}
+.individualProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 1;
+  border: solid #b1ff2e;
+  border-radius: 5px;
+  padding: 5px;
+}
+.groupProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 2;
+  border: solid #b1ff2e;
+  border-radius: 5px;
+  padding: 5px;
+}
+.project {
+  border: solid #464545;
   border-radius: 5px;
 }
