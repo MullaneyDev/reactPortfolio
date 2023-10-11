@@ -6,7 +6,10 @@ const Home = () => {
         Thank you for visiting my website. Here you will find more about who I
         am, why I became a developer and examples of projects I have completed
       </p>
-      <p>To contact me please see the contact function on the page footer</p>
+      <p>
+        For contact information and social profiles please visit the contact
+        page
+      </p>
     </div>
   );
 };
