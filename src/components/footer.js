@@ -1,6 +1,7 @@
 import github from "../images/github.png";
 import twitter from "../images/twitter.png";
 import mail from "../images/mail.jpg";
+import linkedin from "../images/linkedin.png";
 import "../components/footer.css";
 
 const Footer = () => {
@@ -32,7 +33,14 @@ const Footer = () => {
         >
           <img src={twitter} className="icon-style" alt="Twitter logo" />
         </a>
-        <a href="mailto:matt@mullaneydev.co.uk">
+        <a
+          href="https://www.linkedin.com/in/matthew-mullaney-60485028a/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedin} className="icon-style" alt="LinkedIn" />
+        </a>
+        <a href="mailto:matt.mullaney@live.co.uk">
           <img src={mail} className="icon-style" alt="Email icon" />
         </a>
       </div>

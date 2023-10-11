@@ -1,16 +1,16 @@
 const Projects = () => {
   return (
-    <div className="App">
+    <div className="aboutBox">
       <h1>Projects</h1>
       <p>
-        Throughout my time as part of the codenation master software course I
-        have completed projects either as an individual or as part of a group
+        Throughout my time as part of the codenation master software course, I
+        have completed projects either as an individual or as part of a group.
       </p>
       <p>
         These projects have been to help us develop further fluency in the
-        content we have learnt
+        content we have covered.
       </p>
-      <p>Below are links to the projects completed so far</p>
+      <p>Below are links to the projects completed so far.</p>
       <div className="projectWindow">
         <div className="individualProjects">
           <div className="project">
@@ -18,13 +18,21 @@ const Projects = () => {
             <a href="bluey.mullaneydev.uk" target="_blank">
               bluey.mullaneydev.uk
             </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/BlueyMatchingGame"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repository
+            </a>
             <p>
               As part of a stretch objective, I was given a task to create a
               card matching game.
             </p>
             <p>
-              Due to the popularity od Bluey with my eldest son I chose to theme
-              it around this
+              Due to the popularity of Bluey with my eldest son, I chose to
+              theme it around this.
             </p>
           </div>
         </div>
@@ -34,9 +42,17 @@ const Projects = () => {
             <a href="tamogotchi.mullaneydev.uk" target="_blank">
               tamogotchi.mullaneydev.uk
             </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/groupProject1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repository
+            </a>
             <p>
-              As a group we had to create a virtual pet app that had at least
-              three choices
+              As a group, we had to create a virtual pet app that had at least
+              three choices. We then gave each choice individualised actions.
             </p>
           </div>
           <div className="project">
@@ -44,13 +60,21 @@ const Projects = () => {
             <a href="felinesforlife.mullaneydev.uk" target="_blank">
               felinesforlife.mullaneydev.uk
             </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/groupProject2"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github repository
+            </a>
             <p>
-              Our brief was to use a given api to create a store that you could
-              browse and purchase
+              Our brief was to use a given api to create a store in which you
+              could browse and purchase different options.
             </p>
             <p>
               We achieved this through the use of catapi and faker to generate
-              random cat images and details
+              random cat images and details.
             </p>
           </div>
         </div>
