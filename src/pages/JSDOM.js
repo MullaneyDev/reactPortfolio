@@ -26,7 +26,7 @@ const JSDOM = () => {
             width="25%"
             autoPlay="true"
             infiniteLoop="true"
-            dynamicHeight="true"
+            dynamicHeight="false"
           >
             <div>
               <img
