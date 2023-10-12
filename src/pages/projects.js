@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="aboutBox">
+    <div className="projectBox">
       <h1>Projects</h1>
       <p>
         Throughout my time as part of the codenation master software course, I
@@ -13,6 +13,7 @@ const Projects = () => {
       <p>Below are links to the projects completed so far.</p>
       <div className="projectWindow">
         <div className="individualProjects">
+          <h3 className="projectTitles">Individual projects</h3>
           <div className="project">
             <h3>Card Matching Game</h3>
             <a href="bluey.mullaneydev.uk" target="_blank">
@@ -83,6 +84,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="groupProjects">
+          <h3 className="projectTitles">Group projects</h3>
           <div className="project">
             <h3>Project 1 - Virtual pet</h3>
             <a href="tamogotchi.mullaneydev.uk" target="_blank">

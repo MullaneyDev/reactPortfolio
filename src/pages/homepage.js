@@ -1,6 +1,9 @@
+import logo from "../images/mullaneyDevLogo.png";
+
 const Home = () => {
   return (
     <div className="welcomeBox">
+      <img src={logo} alt="Mullaneydev Logo" className="logoIMG" />
       <h1>Welcome</h1>
       <p>
         Thank you for visiting my website. Here you will find more about who I

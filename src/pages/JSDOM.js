@@ -70,6 +70,15 @@ const JSDOM = () => {
               />
             </div>
           </Carousel>
+        </div>{" "}
+        <div className="JSDOMGrid">
+          <img className="gridImg" src={drumKit} alt="drumKit" />
+          <img className="gridImg" src={cardGen} alt="cardGen" />
+          <img className="gridImg" src={colourGuesser} alt="colourGuesser" />
+          <img className="gridImg" src={dice1Player} alt="dice1Player" />
+          <img className="gridImg" src={dice2Player} alt="dice2Player" />
+          <img className="gridImg" src={diceRoller} alt="diceRoller" />
+          <img className="gridImg" src={keyCodeGen} alt="KeyCodeGen" />
         </div>
       </div>
     </>

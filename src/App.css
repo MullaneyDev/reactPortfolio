@@ -66,7 +66,7 @@ nav a:hover {
 .welcomeBox {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr;
+  flex-direction: column;
   background-color: #464545;
   border: 5px solid #b1ff2e;
   border-radius: 10px;
@@ -76,8 +76,32 @@ nav a:hover {
   text-align: center;
   font-size: x-large;
   margin: 36px;
+  position: absolute;
+  top: 20%;
+}
+.logoIMG {
+  width: 200px;
+  border-radius: 50px;
+  justify-self: center;
 }
 .aboutBox {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns: 1fr;
+  background-color: #464545;
+  border: 5px solid #b1ff2e;
+  border-radius: 10px;
+  padding: 25px;
+  grid-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  justify-items: center;
+  margin: 36px;
+  position: absolute;
+  top: 15%;
+}
+.projectBox {
   display: grid;
   justify-content: center;
   align-self: center;
@@ -134,6 +158,8 @@ nav a:hover {
   text-align: center;
   justify-items: center;
   margin: 36px;
+  position: absolute;
+  top: 27%;
 }
 .contact-style {
   width: 200px;
@@ -144,4 +170,163 @@ nav a:hover {
 }
 .contactLink {
   grid-row: 2;
+}
+.projectTitles {
+  display: none;
+}
+.JSDOMGrid {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectWindow {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .projectTitles {
+    display: block;
+    text-decoration: underline;
+  }
+  .individualProjects {
+    display: grid;
+    grid-gap: 5px;
+    grid-column: 1;
+    grid-row: 1;
+    border: solid #b1ff2e;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: slategray;
+  }
+  .groupProjects {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    grid-gap: 5px;
+    border: solid #b1ff2e;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: slategray;
+  }
+  .project {
+    border: solid #464545;
+    border-radius: 5px;
+    font-size: small;
+  }
+  .welcomeBox {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #464545;
+    border: 5px solid #b1ff2e;
+    border-radius: 10px;
+    padding: 25px;
+    grid-gap: 5px;
+    column-gap: 10px;
+    text-align: center;
+    font-size: small;
+    margin: 36px;
+    position: absolute;
+    top: 20%;
+  }
+  .logoIMG {
+    width: 200px;
+    border-radius: 50px;
+    justify-self: center;
+  }
+  .aboutBox {
+    display: grid;
+    background-color: #464545;
+    border: 5px solid #b1ff2e;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    justify-items: center;
+    margin-top: 0px;
+    font-size: small;
+  }
+  .projectBox {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #464545;
+    border: 5px solid #b1ff2e;
+    border-radius: 10px;
+    padding: 25px;
+    grid-gap: 5px;
+    column-gap: 10px;
+    font-size: small;
+    margin: 36px;
+  }
+  .photo {
+    width: 150px;
+  }
+  .JSDOMBox {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    background-color: #464545;
+    border: 5px solid #b1ff2e;
+    border-radius: 10px;
+    padding: 24px;
+    grid-gap: 5px;
+    column-gap: 10px;
+    text-align: center;
+    justify-items: center;
+    margin: 36px;
+  }
+  .carousel-root {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .carouselWindow {
+    display: none;
+    min-height: 700px;
+    align-content: end;
+  }
+  .contactBox {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #464545;
+    border: 5px solid #b1ff2e;
+    border-radius: 10px;
+    padding: 25px;
+    grid-gap: 5px;
+    column-gap: 10px;
+    text-align: center;
+    justify-items: center;
+    margin: 36px;
+    position: absolute;
+    top: 27%;
+  }
+  .contact-style {
+    width: 50px;
+  }
+  .contactDetails {
+    grid-column: 1/5;
+    grid-row: 1;
+  }
+  .contactLink {
+    grid-row: 2;
+  }
+  .JSDOMGrid {
+    display: grid;
+    grid-template-columns: 135px 135px;
+    grid-template-rows: 135px 170px 120px 120px;
+    align-items: center;
+    grid-gap: 5px;
+    background-color: slategray;
+    border: #b1ff2e solid;
+    border-radius: 5px;
+    padding: 5px;
+    contain: strict;
+  }
+  .gridImg {
+    width: 135px;
+  }
 }
