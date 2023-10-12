@@ -35,6 +35,52 @@ const Projects = () => {
               theme it around this.
             </p>
           </div>
+          <div className="project">
+            <h3>React To-Do-List</h3>
+            <a
+              href="https://react-to-do-list-gilt.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://react-to-do-list-gilt.vercel.app/
+            </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/reactToDoList"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repository
+            </a>
+            <p>
+              As a given task we were asked to create a to do list that could be
+              added to, deleted from, edited and stored completed tasks
+            </p>
+          </div>
+          <div className="project">
+            <h3>React Calculator</h3>
+            <a
+              href="https://react-calculator-rust-iota.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://react-calculator-rust-iota.vercel.app/
+            </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/reactCalculator"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repository
+            </a>
+            <p>
+              As a given task we were asked to create a calculator that could
+              use the 4 basic operations. As part of the stretch goals i added
+              extra functionality of keyboard input, use of brackets and use of
+              powers
+            </p>
+          </div>
         </div>
         <div className="groupProjects">
           <div className="project">

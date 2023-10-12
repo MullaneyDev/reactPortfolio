@@ -38,8 +38,10 @@ nav a:hover {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(2 1fr);
-  width: 90vw;
+  width: 95vw;
   justify-self: center;
+  max-height: 400px;
+  overflow-y: auto;
 }
 .individualProjects {
   display: grid;
