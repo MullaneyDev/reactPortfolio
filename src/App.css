@@ -241,8 +241,8 @@ nav a:hover {
     padding: 25px;
     text-align: center;
     justify-items: center;
-    margin-top: 0px;
     font-size: small;
+    position: relative;
   }
   .projectBox {
     display: grid;
