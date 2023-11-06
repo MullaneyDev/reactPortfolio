@@ -1,3 +1,10 @@
+import bluey from "../images/projectImages/bluey.png";
+import calculator from "../images/projectImages/calculator.png";
+import cats4lyf from "../images/projectImages/cats4lyf.png";
+import tamogotchi from "../images/projectImages/tamogotchi.png";
+import todolist from "../images/projectImages/todolist.png";
+import promptelex from "../images/projectImages/promptelex.png"
+
 const Projects = () => {
   return (
     <div className="projectBox">
@@ -16,7 +23,17 @@ const Projects = () => {
           <h3 className="projectTitles">Individual projects</h3>
           <div className="project">
             <h3>Card Matching Game</h3>
-            <a href="bluey.mullaneydev.uk" target="_blank">
+            <img
+              className="projectImage"
+              src={bluey}
+              alt="Bluey Card Matching Game"
+            />
+            <br />
+            <a
+              href="https://bluey.mullaneydev.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
               bluey.mullaneydev.uk
             </a>
             <br />
@@ -29,7 +46,8 @@ const Projects = () => {
             </a>
             <p>
               As part of a stretch objective, I was given a task to create a
-              card matching game.
+              card matching game. I made use of local storage to keep track of
+              the users win total and lowest moves score.
             </p>
             <p>
               Due to the popularity of Bluey with my eldest son, I chose to
@@ -38,6 +56,8 @@ const Projects = () => {
           </div>
           <div className="project">
             <h3>React To-Do-List</h3>
+            <img className="projectImage" src={todolist} alt="To Do List" />
+            <br />
             <a
               href="https://react-to-do-list-gilt.vercel.app/"
               target="_blank"
@@ -55,11 +75,13 @@ const Projects = () => {
             </a>
             <p>
               As a given task we were asked to create a to do list that could be
-              added to, deleted from, edited and stored completed tasks
+              added to, deleted from, edited and stored completed tasks.
             </p>
           </div>
           <div className="project">
             <h3>React Calculator</h3>
+            <img className="projectImage" src={calculator} alt="Calculator" />
+            <br />
             <a
               href="https://react-calculator-rust-iota.vercel.app/"
               target="_blank"
@@ -77,9 +99,9 @@ const Projects = () => {
             </a>
             <p>
               As a given task we were asked to create a calculator that could
-              use the 4 basic operations. As part of the stretch goals i added
+              use the 4 basic operations. As part of the stretch goals I added
               extra functionality of keyboard input, use of brackets and use of
-              powers
+              powers.
             </p>
           </div>
         </div>
@@ -87,7 +109,13 @@ const Projects = () => {
           <h3 className="projectTitles">Group projects</h3>
           <div className="project">
             <h3>Project 1 - Virtual pet</h3>
-            <a href="tamogotchi.mullaneydev.uk" target="_blank">
+            <img className="projectImage" src={tamogotchi} alt="Virtual Pet" />
+            <br />
+            <a
+              href="https://tamogotchi.mullaneydev.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
               tamogotchi.mullaneydev.uk
             </a>
             <br />
@@ -101,11 +129,19 @@ const Projects = () => {
             <p>
               As a group, we had to create a virtual pet app that had at least
               three choices. We then gave each choice individualised actions.
+              We made use of local storage in order to be able to store the 
+              users best time of keeping their virtual pet alive.
             </p>
           </div>
           <div className="project">
             <h3>Project 2 - Cat store</h3>
-            <a href="felinesforlife.mullaneydev.uk" target="_blank">
+            <img className="projectImage" src={cats4lyf} alt="Cats for Life" />
+            <br />
+            <a
+              href="https://felinesforlife.mullaneydev.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
               felinesforlife.mullaneydev.uk
             </a>
             <br />
@@ -124,6 +160,12 @@ const Projects = () => {
               We achieved this through the use of catapi and faker to generate
               random cat images and details.
             </p>
+          </div>
+          <div className="project">
+            <h3>Project 3 - Instagram Clone</h3>
+            <img className="projectImage" src={promptelex} alt="Promptelex" />
+            <br />
+
           </div>
         </div>
       </div>
