@@ -181,6 +181,17 @@ nav a:hover {
   max-width: 300px;
   max-height: 200px;
 }
+.techStack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+  z-index: 1;
+}
+.techStackImg {
+  max-width: 30px;
+}
 
 @media only screen and (max-width: 600px) {
   .projectWindow {
@@ -332,5 +343,8 @@ nav a:hover {
   }
   .gridImg {
     width: 135px;
+  }
+  .projectImage {
+    max-width: 270px;
   }
 }

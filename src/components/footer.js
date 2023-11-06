@@ -4,9 +4,31 @@ import mail from "../images/mail.jpg";
 import linkedin from "../images/linkedin.png";
 import "../components/footer.css";
 
+import html5 from "../images/techstack/512px-HTML5_Badge.svg (1).png";
+import javaScript from "../images/techstack/3799-javascript.jpg";
+import css3 from "../images/techstack/CSS3_logo.svg.png";
+import react from "../images/techstack/React-icon.svg.png";
+import jsdom from "../images/techstack/jsdom-logo-8AAD23EBDB-seeklogo.com.png";
+import sql from "../images/techstack/mysql-ar21.svg";
+import node from "../images/techstack/nodejs-logo-FBE122E377-seeklogo.com.png";
+import sequelize from "../images/techstack/images.png";
+
 const Footer = () => {
   return (
     <div className="brandsig">
+      <div className="brandsig-content-left">
+        <div className="techStack">
+          <p>Tech Stack : </p>
+          <img className="techStackImg" src={html5} alt="HTML5" />
+          <img className="techStackImg" src={css3} alt="CSS3" />
+          <img className="techStackImg" src={javaScript} alt="JavaScript" />
+          <img className="techStackImg" src={jsdom} alt="JSDOM" />
+          <img className="techStackImg" src={react} alt="React" />
+          <img className="techStackImg" src={node} alt="Node" />
+          <img className="techStackImg" src={sql} alt="MySQL2" />
+          <img className="techStackImg" src={sequelize} alt="Sequelize" />
+        </div>
+      </div>
       <div className="brandsig-content-center">
         <div className="sig">
           <p>Website created by</p>

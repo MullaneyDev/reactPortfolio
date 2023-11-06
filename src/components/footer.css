@@ -4,6 +4,7 @@
   left: 0%;
   width: 100%;
   height: 50px;
+  align-items: center;
 }
 .brandsig-content-center {
   display: flex;
@@ -16,6 +17,17 @@
   width: 100%;
   height: 50px;
   background: #464545;
+}
+.brandsig-content-left {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  float: left;
+  z-index: 1;
+  color: white;
 }
 .logo p {
   color: #b1ff2e;
@@ -50,6 +62,9 @@
 .icon-style:hover {
   background: #b1ff2e;
   padding: 2px;
+}
+.techStack {
+  margin: 0%;
 }
 
 @media only screen and (max-width: 600px) {

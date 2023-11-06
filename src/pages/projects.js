@@ -3,7 +3,14 @@ import calculator from "../images/projectImages/calculator.png";
 import cats4lyf from "../images/projectImages/cats4lyf.png";
 import tamogotchi from "../images/projectImages/tamogotchi.png";
 import todolist from "../images/projectImages/todolist.png";
-import promptelex from "../images/projectImages/promptelex.png"
+import promptelex from "../images/projectImages/promptelex.png";
+
+import html5 from "../images/techstack/512px-HTML5_Badge.svg (1).png";
+import javaScript from "../images/techstack/3799-javascript.jpg";
+import css3 from "../images/techstack/CSS3_logo.svg.png";
+import react from "../images/techstack/React-icon.svg.png";
+import node from "../images/techstack/nodejs-logo-FBE122E377-seeklogo.com.png";
+import sequelize from "../images/techstack/images.png";
 
 const Projects = () => {
   return (
@@ -53,7 +60,13 @@ const Projects = () => {
               Due to the popularity of Bluey with my eldest son, I chose to
               theme it around this.
             </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+            </div>
           </div>
+
           <div className="project">
             <h3>React To-Do-List</h3>
             <img className="projectImage" src={todolist} alt="To Do List" />
@@ -77,6 +90,11 @@ const Projects = () => {
               As a given task we were asked to create a to do list that could be
               added to, deleted from, edited and stored completed tasks.
             </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+            </div>
           </div>
           <div className="project">
             <h3>React Calculator</h3>
@@ -103,6 +121,11 @@ const Projects = () => {
               extra functionality of keyboard input, use of brackets and use of
               powers.
             </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+            </div>
           </div>
         </div>
         <div className="groupProjects">
@@ -128,10 +151,15 @@ const Projects = () => {
             </a>
             <p>
               As a group, we had to create a virtual pet app that had at least
-              three choices. We then gave each choice individualised actions.
-              We made use of local storage in order to be able to store the 
-              users best time of keeping their virtual pet alive.
+              three choices. We then gave each choice individualised actions. We
+              made use of local storage in order to be able to store the users
+              best time of keeping their virtual pet alive.
             </p>
+            <div className="techStack">
+              <img className="techStackImg" src={html5} alt="HTML5" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+            </div>
           </div>
           <div className="project">
             <h3>Project 2 - Cat store</h3>
@@ -160,12 +188,48 @@ const Projects = () => {
               We achieved this through the use of catapi and faker to generate
               random cat images and details.
             </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+            </div>
           </div>
+
           <div className="project">
             <h3>Project 3 - Instagram Clone</h3>
             <img className="projectImage" src={promptelex} alt="Promptelex" />
             <br />
-
+            <a
+              href="https://github.com/MullaneyDev/instaCloneFront"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github repository - Front end
+            </a>
+            <a
+              href="https://github.com/MullaneyDev/instaCloneBack"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github repository - Back end
+            </a>
+            <p>
+              Our brief for this project was to create a social media platform
+              similar to instagram. We had to utilise both our front end (react)
+              and back end (sequelize) skills in order to do this.
+            </p>
+            <p>
+              We worked in a group of 5 to plan, map out jobs and execute them.
+              To ensure a smooth workflow and minimal conflicts, we made use of
+              Trello as well as constant communication and github strategy.
+            </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+              <img className="techStackImg" src={node} alt="Node" />
+              <img className="techStackImg" src={sequelize} alt="Sequelize" />
+            </div>
           </div>
         </div>
       </div>
