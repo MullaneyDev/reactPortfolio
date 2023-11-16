@@ -4,6 +4,7 @@ import cats4lyf from "../images/projectImages/cats4lyf.png";
 import tamogotchi from "../images/projectImages/tamogotchi.png";
 import todolist from "../images/projectImages/todolist.png";
 import promptelex from "../images/projectImages/promptelex.png";
+import boxedoff from "../images/projectImages/boxedoff.png";
 
 import html5 from "../images/techstack/512px-HTML5_Badge.svg (1).png";
 import javaScript from "../images/techstack/3799-javascript.jpg";
@@ -194,7 +195,6 @@ const Projects = () => {
               <img className="techStackImg" src={css3} alt="CSS3" />
             </div>
           </div>
-
           <div className="project">
             <h3>Project 3 - Instagram Clone</h3>
             <img className="projectImage" src={promptelex} alt="Promptelex" />
@@ -222,6 +222,58 @@ const Projects = () => {
               We worked in a group of 5 to plan, map out jobs and execute them.
               To ensure a smooth workflow and minimal conflicts, we made use of
               Trello as well as constant communication and github strategy.
+            </p>
+            <div className="techStack">
+              <img className="techStackImg" src={react} alt="React" />
+              <img className="techStackImg" src={javaScript} alt="JavaScript" />
+              <img className="techStackImg" src={css3} alt="CSS3" />
+              <img className="techStackImg" src={node} alt="Node" />
+              <img className="techStackImg" src={sequelize} alt="Sequelize" />
+            </div>
+          </div>
+          <div className="project">
+            <h3>Project 4 - Boxed Off</h3>
+            <img className="projectImage" src={boxedoff} alt="Boxed Off" />
+            <br />
+            <a
+              href="https://boxedoff.mullaneydev.uk/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              boxedoff.mullaneydev.uk/
+            </a>
+            <br />
+            <a
+              href="https://github.com/MullaneyDev/familyManagementFrontEnd"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github repository - Front end
+            </a>
+            <a
+              href="https://github.com/BinkSan3/familyManagementBackEnd"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Github repository - Back end
+            </a>
+            <p>
+              Our brief for this project was to create an app of our choosing
+              that hit certain parameters. We had to build a front end using
+              React and connect this to a back end database of our chosen style.
+              We also had to include the use of an api.
+            </p>
+            <p>
+              We worked in a group of 5 to brainstorm app ideas. We eventually
+              settled on a family management app which we named Boxed Off. After
+              initial planning, we decided upon the use of sequelize and an SQL
+              database due to needing relationships between the data required.
+              As designated Project Lead, with the support of the team I laid
+              out documentation that included our workflow, git strategy and css
+              strategy. Following these meant we had a smoother workflow and cut
+              down on any conflicts. We are all proud of our completed app and
+              have ideas on how we can add to and improve its current
+              functionality.
             </p>
             <div className="techStack">
               <img className="techStackImg" src={react} alt="React" />
