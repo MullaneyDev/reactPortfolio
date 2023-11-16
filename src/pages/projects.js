@@ -77,7 +77,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              https://react-to-do-list-gilt.vercel.app/
+              react-to-do-list-gilt.vercel.app
             </a>
             <br />
             <a
@@ -106,7 +106,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              https://react-calculator-rust-iota.vercel.app/
+              react-calculator-rust-iota.vercel.app
             </a>
             <br />
             <a
@@ -206,6 +206,7 @@ const Projects = () => {
             >
               Github repository - Front end
             </a>
+            <br />
             <a
               href="https://github.com/MullaneyDev/instaCloneBack"
               rel="noreferrer"
@@ -240,7 +241,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              boxedoff.mullaneydev.uk/
+              boxedoff.mullaneydev.uk
             </a>
             <br />
             <a
@@ -250,6 +251,7 @@ const Projects = () => {
             >
               Github repository - Front end
             </a>
+            <br />
             <a
               href="https://github.com/BinkSan3/familyManagementBackEnd"
               rel="noreferrer"
